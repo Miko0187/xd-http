@@ -1,0 +1,21 @@
+{
+  "name": "xd-http",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "tsc -b ./src && node ./build/index.js",
+    "build": "tsc -b ./src",
+    "clear": "node tools/clear.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.2.3",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "tslib": "^2.5.2"
+  }
+}
