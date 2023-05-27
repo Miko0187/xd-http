@@ -5,9 +5,7 @@
   "main": "build/index.js",
   "type": "commonjs",
   "scripts": {
-    "start": "tsc -b ./src && node ./build/index.js",
-    "build": "tsc -b ./src",
-    "clear": "node tools/clear.js"
+    "build": "tsc -b ."
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +14,6 @@
     "typescript": "^5.0.4"
   },
   "dependencies": {
-    "tslib": "^2.5.2"
+    "reflect-metadata": "^0.1.13"
   }
 }
